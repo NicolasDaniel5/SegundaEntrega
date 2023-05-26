@@ -1,0 +1,244 @@
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+
+
+
+.titulo {
+    display: inline;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* menu de navegacion */
+
+.menuNavegador {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: 5px outset #F9F5EB;
+    width: 100%;
+}
+
+.menuNavegador ul {
+    list-style-type: none;
+    
+}
+
+.menuNavegador ul li {
+    display: inline;
+    padding: 20px;
+}
+
+.menuNavegador ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.background{
+    background-color: #070923  ;
+}
+
+.espacio{
+    margin-top: 90px;
+}
+
+/* pagina inicial */
+
+.hero{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+
+.hero img {
+    width: 40%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    position: relative;
+    top: 100px;
+
+}
+
+.hero_content{
+    display: inline-block;
+    width: 40%;
+    color: #F9F5EB;
+    margin: 20px;
+    height: 500px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.hero_content  h1 {
+    font-size: 100px;
+    margin: 20px;
+    position: relative;
+    bottom: 100px;
+    
+}
+
+/* about */
+.hero2{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+
+.hero2 img {
+    width: 40%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+.hero_content2{
+    display: inline-block;
+    width: 40%;
+    color: #F9F5EB;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* trabajos */
+
+.hero3{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+
+.hero3  img {
+    width: 20%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 55px;
+
+}
+
+.hero_content3{
+    display: inline-block;
+    width: 30%;
+    color: #F9F5EB;
+    margin: 20px;
+    height: 500px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 50px;
+    
+}
+
+.hero3  h1 {
+    font-size: 40px;
+    margin: 10px;
+    color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/* Contacto */
+
+.hero4 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.hero4 div label{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    
+}
+.hero4 div input {
+    border: 2px solid green;
+    border-radius: 20px;
+    width: 240px;
+}
+.hero4 div textarea {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+.hero4 iframe{
+    border-radius: 5px;
+    margin: 40px;
+    width: 60%;
+}
+
+/* servicios */
+
+.cards {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+.cards_body {
+    display: inline-block;
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    background-color:darkgrey;
+    border: 1px solid green;
+    padding: 25px;
+}
+
+.cards_body h2 {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: dodgerblue;
+    background-color: #070923;
+}
+.cards_body p {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+
+
+
+.boton{
+    color: wheat;
+    background-color: green;
+    border-radius: 20px;
+}
+
+/* footer */
+
+
+.footer{
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-style: oblique;
+}
+
+.footer p {
+    padding-top: 20px;
+}
