@@ -227,32 +227,19 @@
 
 /* Contacto */
 
-.hero4 {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
+label {
+    color: wheat; 
 }
 
-.hero4 div label{
-    color: white;
-    display: inline-block;
-    width: 100%;
-    
-}
-.hero4 div input {
-    border: 2px solid green;
-    border-radius: 20px;
-    width: 240px;
-}
-.hero4 div textarea {
-    border: 2px solid green;
-    border-radius: 5px;
+.hero4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero4 iframe{
     border-radius: 5px;
-    margin: 40px;
-    width: 60%;
+    width: 65%;
 }
 
 /* servicios */
