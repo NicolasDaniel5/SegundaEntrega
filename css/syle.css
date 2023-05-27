@@ -5,8 +5,9 @@
 
 
 .titulo {
-    display: inline;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
