@@ -77,7 +77,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     width: 40%;
     color: #F9F5EB;
     height: 500px;
@@ -123,32 +122,59 @@
 /* trabajos */
 
 
-/* .hero3{
-    display: inline-block;
+.hero_padre {
     width: 100%;
-    text-align: center;
-    
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'area1 area1 area2 area2'
+    'area3 area3 area4 area4'
+    'area3 area3 area4 area4'
+    'area3 area3 area4 area4'
+    ;
+    gap: 15px;
+    align-items: center;
+}
+.g1 {
+    grid-area: area1;
+}
 
+.g2 {
+    grid-area: area2;
+}
+
+.g3 {
+    grid-area: area3;
+}
+
+.g4 {
+    grid-area: area4;
 }
 
 
+
+.hero3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid wheat ;
+    border-radius: 10px;
+}
 .hero3  img {
-    width: 20%;
+    width: 30%;
     height: 300px;
     object-fit: cover;
-    border-radius: 55px;
+    border-radius: 10px;
 
 }
 
-.hero_content3{
-    display: inline-block;
-    width: 30%;
+.hero3 p{
+    width: 100%;
     color: #F9F5EB;
-    margin: 20px;
-    height: 500px;
     font-family: 'Roboto', sans-serif;
-    position: relative;
-    bottom: 50px;
+
     
 }
 
@@ -158,7 +184,7 @@
     color: wheat;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
-} */
+} 
 
 /* Contacto */
 
