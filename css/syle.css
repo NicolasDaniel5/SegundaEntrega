@@ -246,32 +246,39 @@
 /* servicios */
 
 .cards {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
     
 }
 
 .cards_body {
-    display: inline-block;
-    width: 25%;
-    height: 300px;
-    text-align: center;
-    background-color:darkgrey;
-    border: 1px solid green;
-    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    height: 500px;
+    border: 2px solid wheat;
+    border-radius: 15px;
 }
 
 .cards_body h2 {
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: dodgerblue;
+    color: wheat;
     background-color: #070923;
 }
 .cards_body p {
     font-size: 25px;
     font-family: 'Roboto', sans-serif;;
+    color: white;
+}
+
+.cards_body:hover {
+    width: 40%;
+    height: 550px;
 }
 
 
