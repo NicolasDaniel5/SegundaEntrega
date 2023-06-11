@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    color: $textColor;
+    font-size: 10px;
+    font-style: oblique;
+
+    p {
+        padding-top: 20px;
+    }
+}
+
+.icon_footer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 300px;   
+    
+    &_content {
+        font-size:  35px;
+        
+        i:hover {
+            font-size:  45px;
+            color: $secondColor;
+            
+        }
+        a{
+            color: $textColor;
+        }
+        
+    }
+}

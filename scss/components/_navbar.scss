@@ -1,0 +1,31 @@
+a i {
+    animation: mymove 5s infinite;
+
+    &:hover {
+        color:$secondColor;
+    
+     }
+}
+
+ .nav-link {
+    animation: mymove 5s infinite;
+
+    &:hover {
+        color:$secondColor;
+     }
+ }
+
+
+
+.background{
+    background-color: $primaryColor  ;
+}
+
+.espacio{
+    margin-top: 90px;
+}
+
+.navbar{
+    background-color: $primaryColor;
+    color: $primaryColor;
+}

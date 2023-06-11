@@ -210,6 +210,12 @@ a i {
     gap: 10px;
 }
 
+.hero3_boton a:hover {
+    color: #070923;
+    background-color: #8ce5a2;
+    border: 2px solid #070923;
+}
+
 .hero3_boton a {
     text-decoration: none;
     display: flex;
@@ -250,6 +256,9 @@ label {
     color: #070923;
     background-color: #8ce5a2;
     border: 2px solid #070923;
+}
+.form-control {
+    border: 2px solid #8ce5a2;
 }
 
 /* servicios */

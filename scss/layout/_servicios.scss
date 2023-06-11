@@ -1,0 +1,36 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    &_body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 33%;
+        height: 500px;
+        border: 2px solid $secondColor;
+        border-radius: 15px;
+
+        h2 {
+            font-size: 35px;
+            font-family: $letraTitulo;
+            color: $secondColor;
+            background-color: $primaryColor;
+        }
+
+        p {
+            font-size: 25px;
+            font-family: $letraParrafo;;
+            color: $textColor;
+        }
+
+        &:hover {
+            width: 40%;
+            height: 550px;
+        }
+    }
+    
+}
